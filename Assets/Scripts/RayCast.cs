@@ -21,20 +21,12 @@ public class RayCast : MonoBehaviour
                 // Debug.Log("Found a popup!");
                 popup.View();
             }
+
+            if (Input.GetKeyDown(KeyCode.Space) && hitInfo.collider.gameObject.TryGetComponent(out IPopup interactObj))
+            {
+                interactObj.Interact();
+            }
+
         }
-        
-        // if (Input.GetKeyDown(KeyCode.E))
-        // {
-        //     // Debug.Log("Trying to interact...");
-        //     // Debug.DrawRay(r.origin, r.direction * contactDistance, Color.red, 10f);
-        //     if (Physics.Raycast(r, out var hitInfo, contactDistance))
-        //     {
-        //         if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
-        //         {
-        //             // Debug.Log("Found an interactable!");
-        //             interactObj.Interact();
-        //         }
-        //     }
-        // }
     }
 }
