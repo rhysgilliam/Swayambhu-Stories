@@ -18,7 +18,7 @@ public class RayCast : MonoBehaviour
         {
             if (hitInfo.collider.gameObject.TryGetComponent(out IPopup popup))
             {
-                // Debug.Log("Found a popup!");
+                Debug.Log("Found a popup!");
                 popup.View();
             }
 
