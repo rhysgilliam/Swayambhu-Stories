@@ -1214,7 +1214,7 @@ VideoPlayer:
   - {fileID: 1408447180}
   m_DirectAudioVolumes:
   - 0.5
-  m_Url: Assets/StreamingAssets/placeholder.mp4
+  m_Url: https://www.dropbox.com/scl/fi/0re4wcu62n8hxwk1p4fkn/worship.mp4?rlkey=fl7waup43ko5uwv5c2zzp9zx3&st=vlupged1&raw=1
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
