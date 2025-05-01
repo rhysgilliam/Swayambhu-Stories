@@ -2010,13 +2010,13 @@ VideoPlayer:
   - {fileID: 1408447180}
   m_DirectAudioVolumes:
   - 0.5
-  m_Url: Assets/StreamingAssets/powerofworship.mov
+  m_Url: https://dl.dropboxusercontent.com/scl/fi/0re4wcu62n8hxwk1p4fkn/worship.mp4?rlkey=fl7waup43ko5uwv5c2zzp9zx3&raw=1
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -4150,7 +4150,7 @@ VideoPlayer:
   - {fileID: 378139274}
   m_DirectAudioVolumes:
   - 0.5
-  m_Url: Assets/StreamingAssets/BhutanGumba.mov
+  m_Url: https://dl.dropboxusercontent.com/scl/fi/r7ue5cv6i1srlmckcqyno/Bhutan-Gumba-Lama-on-prostration.mp4?rlkey=mcrz18qp1tiryrud2mo8n8yzn&raw=1
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
