@@ -44,7 +44,7 @@ Full instructions for how to add/edit/delete annotations, as well as update the 
 
 ## License 
 
-This repository is not open to external contributions. If you are a collaborator of the Swayambhu Stories project and want write access to this repository, please contact the [team](https://tarheels.live/sp25teamm/roles/).
+This repository is not open to external contributions. If you are a collaborator of the Swayambhu Stories project and want write access to this repository, please contact the team here: [https://tarheels.live/sp25teamm/roles/](https://tarheels.live/sp25teamm/roles/).
 
 
 .fbx model is too large for the Github repo, so need to add it in manually. Add the .fbx file to Assets/OversizedFiles and in the Unity editor, load in "SampleScene" to see the model. If a prefab error happens press on the Object prompt and enter in "12.5MillionTriangles" model.
