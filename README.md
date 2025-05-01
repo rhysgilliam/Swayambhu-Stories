@@ -8,7 +8,7 @@ Welcome to the official repository for the **Swayambhu Stories Website: Unity Mo
 - [Overview](#overview)
 - [Setup Instructions](#setup-instructions)
 - [Workspace](#Workspace)
-- [Annotations](#Annotations)
+- [Documentation](#Documentation)
 - [License](#license)
 
 ---
@@ -37,32 +37,15 @@ This 3D model comes with a FirstPersonController object for the user to explore 
 
 <img width="201" alt="Screenshot 2025-04-30 at 10 17 38 PM" src="https://github.com/user-attachments/assets/c825006a-192c-4fff-a844-eed6bae501b9" />
 
-## Annotations
+## Documentation
 
-Sample annotations are added into this project. To add video or text annotations, use the following steps:
+Full instructions for how to add/edit/delete annotations, as well as update the Unity model are linked at the following [documentation file](https://docs.google.com/document/d/1BU8hdjbiOrVXF21CXL1rhFVGkPW0Uo_R67zbBZTWLFQ/edit?usp=sharing). 
 
-### Text Annotation
 
-Copy-paste one of the example text annotations, such as 'Anantapura (#12)' in the Main Scene editor. This will clone the entire text-interactive annotation object, including the lotus flower interactive object, text canvas, and attached scripts. Use the movement arrows to place this object to where desired in the model overworld.
+## License 
 
-<div align="center">
-  <img width="178" alt="Screenshot 2025-04-30 at 10 23 06 PM" src="https://github.com/user-attachments/assets/5a4bda27-1f8f-43ee-85e9-981937852c1d" />
-  <img width="186" alt="Screenshot 2025-04-30 at 10 23 30 PM" src="https://github.com/user-attachments/assets/519ae627-a9ed-4c25-a425-5d6c1eb2f2eb" />
-  <img width="1440" alt="Screenshot 2025-04-30 at 10 27 05 PM" src="https://github.com/user-attachments/assets/ebef76cb-6b86-4665-ab3f-665f978d2345" />
-</div>
+This repository is not open to external contributions. If you are a collaborator of the Swayambhu Stories project and want write access to this repository, please contact the [team](https://tarheels.live/sp25teamm/roles/).
 
-The annotations script automatically hides the text annotation canvas from the player, and will only show it on input once the user approaches the annotations object. To add a text canvas that will pop-up when the viewer gets close to this example, annotation, copy-paste one of the example objects that are prefaced with 'TEXT', such as 'TEXT - Anantapura (#12)'. 
-
-<div align="center">
-  <img width="190" alt="Screenshot 2025-04-30 at 10 29 33 PM" src="https://github.com/user-attachments/assets/4b16a5d8-3924-421e-8f8c-898ad56cc1e2" />
-  <img width="206" alt="Screenshot 2025-04-30 at 10 30 01 PM" src="https://github.com/user-attachments/assets/0b980a0f-5fdf-41b6-ae87-cf6ee7ba694c" />
-</div>
-
-The object is by default hidden from user view. To see it, check the box next to the annotation name in the top-right Inspector window.
-
-<div align="center"> 
-    <img width="365" alt="Screenshot 2025-04-30 at 10 31 12 PM" src="https://github.com/user-attachments/assets/56c44d2b-ca63-4946-b0a8-719e5cacea02" />
-</div>
 
 .fbx model is too large for the Github repo, so need to add it in manually. Add the .fbx file to Assets/OversizedFiles and in the Unity editor, load in "SampleScene" to see the model. If a prefab error happens press on the Object prompt and enter in "12.5MillionTriangles" model.
 
